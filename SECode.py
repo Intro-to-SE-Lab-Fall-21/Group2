@@ -1,8 +1,8 @@
 import psycopg2
 
 DB_HOST = "127.0.0.1"
-DB_NAME = "IntroSE_EmailDB"
-DB_USER = "postgres"
+DB_NAME = "email"
+DB_USER = "emailClient"
 DB_PASS = "password123"
 
 
