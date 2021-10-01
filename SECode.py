@@ -3,14 +3,11 @@ import psycopg2
 DB_HOST = "127.0.0.1"
 DB_NAME = "IntroSE_EmailDB"
 DB_USER = "postgres"
-DB_PASS = "phoenix6877$"
+DB_PASS = "password123"
 
 
 conn = psycopg2.connect(dbname = DB_NAME, user = DB_USER, password = DB_PASS, host = DB_HOST)
 csr = conn.cursor()
-
-##csr.execute("CREATE TABLE login (id SERIAL PRIMARY KEY, username VARCHAR, password VARCHAR);")
-##csr.execute("INSERT INTO login (username, password) VALUES('CadeB', 'buh')")
 
 exit = 0
 results = "hey"
